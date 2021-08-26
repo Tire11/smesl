@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+
+.header-alert {
+  background-color: #cafff2;
+}
+.important1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #1e4a86;
+  margin-bottom: 25px;
+}
+.important2 {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.5px;
+  line-height: 20px;
+
+  letter-spacing: 0.1px;
+
+  color: #1e4a86;
+  padding-top: 8px;
+  margin-bottom: 15px;
+}
+/* .navbar-logo {
+  margin-left: 100px;
+} */
+.navbar-nav .nav-item .navLink1 {
+  color: #1e4a86;
+}
+.navbar-nav .nav-item .navLink2 {
+  color: #1e4a86;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.button1 {
+  background-color: #1e4a86;
+  color: white;
+}
+.button1:hover {
+  background-color: transparent;
+  color: #1e4a86;
+}
+.button2 {
+  background-color: #eb5757;
+  color: white;
+}
+.button2:hover {
+  background-color: transparent;
+  color: #eb5757;
+}
+.main-section {
+  padding-top: 10px;
+  background-color: #f5faff;
+  position: relative;
+}
+.main-text h3 {
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 60px;
+  color: #1e4a86;
+  margin-top: 70px;
+}
+.button3 {
+  background: #18d7a9;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 60px;
+  margin-top: 15px;
+}
+.button3 a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.main-img img {
+  width: auto;
+  height: fit-content;
+}
+.ellipse263 {
+  position: absolute;
+  top: 110px;
+  left: 530px;
+}
+.polygon2 {
+  position: absolute;
+  left: 580px;
+  top: 300px;
+}
+.vector1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.vector2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.boogie-text h5 {
+  font-size: 24px;
+  color: #1e4a86;
+  margin-top: 50px;
+  font-weight: bold;
+}
+.last-div {
+  color: #1e4a86;
+  font-weight: bold;
+}
+.fourth-col .second-p {
+  font-size: 15px;
+}
+
+.card {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    #4285f4;
+  border-radius: 8px;
+  /* margin: auto; */
+  height: 200px;
+  padding-top: 50px;
+}
+.smart {
+  width: 50px;
+}
+.big-text h5 {
+  color: #1e4a86;
+  font-weight: bold;
+}
+.card-image {
+  padding-left: 40px;
+}
+.card img {
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+.mobile-box {
+  display: none;
+}
+.closing-div {
+  background-color: #1e4a86;
+  display: flex;
+  justify-content: center;
+  /* height: 50px; */
+}
+.closing-div p {
+  margin-top: 10px;
+}
+.button4 {
+  background: #18d7a9;
+  border-radius: 5px;
+  color: white;
+  padding: 0 15px;
+  margin: 10px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  .mobile-box {
+    display: block;
+  }
+  .web-box {
+    display: none;
+  }
+  .ellipse263 {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+  }
+  .polygon2 {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+  }
+  .main-text h3 {
+    font-size: 32px;
+  }
+  .boogie-text h5 {
+    font-size: 24px;
+    text-align: center;
+    color: #1e4a86;
+    margin-top: 40px;
+  }
+  .button4 {
+    padding: 0;
+    margin: 0;
+  }
+}
+/* Personal */
+/* .logo-personal {
+  display: flex;
+} */
+.logo-personal img {
+  margin: 35px 100px;
+}
+.title-personal {
+  position: relative;
+  margin-bottom: 10px;
+}
+.title-personal h5 {
+  color: #1e4a86;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.left-arrow {
+  position: absolute;
+  left: 0;
+}
+.x-image {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+.button-personal {
+  position: relative;
+}
+.button5 {
+  background: #346ac3;
+  border-radius: 4px;
+  color: white;
+  position: absolute;
+  right: 0;
+  font-size: 12px;
+}
+
+.container h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1e4a86;
+}
+.surname {
+  font-weight: bold;
+  font-size: 13px;
+  padding: 10px 0;
+}
+.form-control {
+  background-color: #f8f6f5;
+  border-radius: 8px;
+  height: 45px;
+  border: none;
+}
+.form-text {
+  font-size: 12px;
+}
+.button6 {
+  background: #346ac3;
+  border-radius: 16px;
+  color: white;
+  width: 100%;
+  height: 56px;
+}
+.button6 a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.declaration-text {
+  font-size: 13px;
+}
+.dropdown-toggle {
+  border: none;
+}

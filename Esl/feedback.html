@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Agent Registration Form</title>
+</head>
+<body>
+    <section class="container">
+      <div class="logo-personal">
+        <a href="index.html"><img src="./img/LOGO paycentre white bg.png" alt=""></a>
+      </div>
+      <div class="title-personal text-center">
+        <img src="./img/arrow-left.png" alt="" class="left-arrow">
+        <h5>Agent Sign Up Form</h5>
+        <img src="./img/x.png" alt="" class="x-image" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#cancel">
+      </div>
+      <div class="button-personal">
+        <button class="btn button5">Step 3 of 3</button>
+      </div>
+    </section>
+
+    <section class="container mt-5">
+        <h4 class="py-4">3. Feedback and recommendation</h4>
+        <div class="dropdown mb-5">
+            <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              How did you hear about us?
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Social Media (FaceBook, Instagram e.t.c)</a>
+              <a class="dropdown-item" href="#">A Friend</a>
+              <a class="dropdown-item" href="#">An Agent</a>
+              <a class="dropdown-item" href="#">Ambassador</a>
+              <a class="dropdown-item" href="#">Flyers</a>
+              <a class="dropdown-item" href="#">Others? Specify</a>
+            </div>
+          </div>
+          <div class="dropdown mb-5">
+            <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              How do you want us to contact you?
+            </button>
+            <div class="dropdown-menu" aria-labelledby="#dropdownMenuButton">
+              <a class="dropdown-item" href="#">Social Media (FaceBook, Instagram e.t.c)</a>
+              <a class="dropdown-item" href="#">A Friend</a>
+              <a class="dropdown-item" href="#">An Agent</a>
+              <a class="dropdown-item" href="#">Ambassador</a>
+              <a class="dropdown-item" href="#">Flyers</a>
+              <a class="dropdown-item" href="#">Others? Specify</a>
+            </div>
+          </div>
+          <h4 class="text-black pb-2">Declaration</h4>
+          <div class="form-group form-check pb-2">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1"></label>
+          </div>
+          <p class="declaration-text">By ticking this box, I declare that the information provided by me is true. I agree that this is required for my agency banking relationship with ESL (PayCentre). I give my full consent for he informtion to be used for the purpose by PayCentre as approparaite.</p>
+          <form>
+            <div class="form-group surname mt-2">
+                <label for="exampleFormControlInput1">Signature</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+            <div class="form-group surname mt-2">
+                <label for="exampleFormControlInput1">Date</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder=" E.g 19-08-2021">
+            </div>
+          </form>
+          <button class="btn button6 mt-5" data-bs-toggle="modal" data-bs-target="#save">Submit</button>
+    </section>
+
+    <div class="modal fade" id="cancel" tabindex="-1" aria-labelledby="cancelLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center px-5 fw-bold" id="cancelLabel">Cancel Application</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="text-center lead">Are you sure you want to cancel your application?</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No, Continue</button>
+            <button type="button" class="btn btn-primary">Yes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="save" tabindex="-1" aria-labelledby="saveLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-dialog">
+          <div class="modal-content align-items-center">
+            <div class="modal-header">
+              <h5 class="modal-title px-5" id="saveLabel"><img src="./img/Success.png" alt=""></h5>
+            </div>
+            <div class="modal-body text-center">
+              <h5 class="text-center fw-bold">Successful</h5>
+              <p>Your application has been submited. You will be contacted shortly</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Okay</button>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
